@@ -42,7 +42,7 @@ def count_hex_values(hex_list):
     return hex_dictionary
 
 def main():
-    n = 30
+    n = 1000000
     list = generate_list(n)
     prime_numbers_list = generate_prime_numbers_list(list)
     hex_prime_numbers_list = convert_to_hex(prime_numbers_list)
