@@ -103,7 +103,7 @@ def getResponse (result, time_in_s, max_memory_in_MB):
     return data
 
 def getParams(data):
-    n = int(data["n"]) # pretvori u int
+    n = int(data["n"])
     m = int(data["m"])
     special_fields = data["points"]
     return n, m, special_fields
